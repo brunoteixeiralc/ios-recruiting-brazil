@@ -14,6 +14,8 @@
 		F4DE10702166ACD3009C9DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DE106F2166ACD3009C9DF3 /* Assets.xcassets */; };
 		F4DE10732166ACD3009C9DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DE10712166ACD3009C9DF3 /* LaunchScreen.storyboard */; };
 		F4DE107E2166ACD3009C9DF3 /* MovsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE107D2166ACD3009C9DF3 /* MovsUITests.swift */; };
+		F4DE108B2166BA1F009C9DF3 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DE10892166BA1F009C9DF3 /* error.json */; };
+		F4DE108C2166BA1F009C9DF3 /* search_not_find.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DE108A2166BA1F009C9DF3 /* search_not_find.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F4DE10792166ACD3009C9DF3 /* MovsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DE107D2166ACD3009C9DF3 /* MovsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovsUITests.swift; sourceTree = "<group>"; };
 		F4DE107F2166ACD3009C9DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DE10892166BA1F009C9DF3 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
+		F4DE108A2166BA1F009C9DF3 /* search_not_find.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_not_find.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		F4DE10642166ACD0009C9DF3 /* Movs */ = {
 			isa = PBXGroup;
 			children = (
+				F4DE10882166BA08009C9DF3 /* lottie_animations */,
 				F4DE10652166ACD0009C9DF3 /* AppDelegate.swift */,
 				F4DE10672166ACD0009C9DF3 /* ViewController.swift */,
 				F4DE10692166ACD0009C9DF3 /* Main.storyboard */,
@@ -97,6 +102,15 @@
 				F4DE107F2166ACD3009C9DF3 /* Info.plist */,
 			);
 			path = MovsUITests;
+			sourceTree = "<group>";
+		};
+		F4DE10882166BA08009C9DF3 /* lottie_animations */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE10892166BA1F009C9DF3 /* error.json */,
+				F4DE108A2166BA1F009C9DF3 /* search_not_find.json */,
+			);
+			path = lottie_animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DE108B2166BA1F009C9DF3 /* error.json in Resources */,
+				F4DE108C2166BA1F009C9DF3 /* search_not_find.json in Resources */,
 				F4DE10732166ACD3009C9DF3 /* LaunchScreen.storyboard in Resources */,
 				F4DE10702166ACD3009C9DF3 /* Assets.xcassets in Resources */,
 				F4DE106B2166ACD0009C9DF3 /* Main.storyboard in Resources */,
